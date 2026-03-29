@@ -1,0 +1,5 @@
+ROLLOUT_enable_dark_mode: Allow users to toggle dark mode
+ROLLOUT_disable_legacy_ui: Phase out old interface
+ROLLOUT_test_feature_with_description: This should be excluded
+ROLLOUT_enable_notifications: Push notification support
+ROLLOUT_enable_search: "Enables the new search feature"
