@@ -1,5 +1,7 @@
 # flipper-ls.nvim
 
+![demo](demo.gif)
+
 An in-process Neovim LSP server for [Flipper](https://github.com/jnunemaker/flipper) feature flag names. Provides completion, hover, and go-to-definition by reading feature names and descriptions from a YAML config file.
 
 ## 📋 Requirements
