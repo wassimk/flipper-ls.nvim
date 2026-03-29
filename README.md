@@ -2,12 +2,12 @@
 
 An in-process Neovim LSP server for [Flipper](https://github.com/jnunemaker/flipper) feature flag names. Provides completion, hover, and go-to-definition by reading feature names and descriptions from a YAML config file.
 
-## Requirements
+## 📋 Requirements
 
 - Neovim 0.11+
 - A `config/feature-descriptions.yml` file in your project root
 
-## Installation
+## 🛠️ Installation
 
 Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
@@ -21,7 +21,7 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 }
 ```
 
-## Features
+## 💻 Features
 
 ### Completion
 
@@ -46,7 +46,7 @@ Hover over a feature name to see its description from the YAML file.
 
 Jump to the feature's line in the YAML config file.
 
-## How It Works
+## 🔍 How It Works
 
 The plugin reads feature names from `config/feature-descriptions.yml` (relative to your project root). This file should contain lines in the format:
 
@@ -59,7 +59,7 @@ The LSP server runs entirely in-process within Neovim. No external process is sp
 
 The server only activates when it finds `config/feature-descriptions.yml` under a project root (detected via `Gemfile`, `package.json`, or `.git`).
 
-## Configuration
+## 🔧 Configuration
 
 The defaults work for most projects. For custom paths or prefixes, use `vim.lsp.config`:
 
@@ -85,7 +85,7 @@ vim.lsp.enable('flipper_ls')
 | `features_path` | `config/feature-descriptions.yml` | Path to the YAML features file (relative to project root) |
 | `prefixes` | See above | List of method prefixes that trigger completion |
 
-## Development
+## 🔨 Development
 
 Run tests and lint:
 

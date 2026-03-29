@@ -4,12 +4,12 @@
 Table of Contents                          *flipper-ls.nvim-table-of-contents*
 
 1. flipper-ls.nvim                           |flipper-ls.nvim-flipper-ls.nvim|
-  - Requirements                |flipper-ls.nvim-flipper-ls.nvim-requirements|
-  - Installation                |flipper-ls.nvim-flipper-ls.nvim-installation|
-  - Features                        |flipper-ls.nvim-flipper-ls.nvim-features|
-  - How It Works                |flipper-ls.nvim-flipper-ls.nvim-how-it-works|
-  - Configuration              |flipper-ls.nvim-flipper-ls.nvim-configuration|
-  - Development                  |flipper-ls.nvim-flipper-ls.nvim-development|
+  - 📋 Requirements      |flipper-ls.nvim-flipper-ls.nvim-📋-requirements|
+  - 🛠️ Installation|flipper-ls.nvim-flipper-ls.nvim-���-️-installation|
+  - 💻 Features              |flipper-ls.nvim-flipper-ls.nvim-💻-features|
+  - 🔍 How It Works      |flipper-ls.nvim-flipper-ls.nvim-🔍-how-it-works|
+  - 🔧 Configuration    |flipper-ls.nvim-flipper-ls.nvim-🔧-configuration|
+  - 🔨 Development        |flipper-ls.nvim-flipper-ls.nvim-🔨-development|
 
 ==============================================================================
 1. flipper-ls.nvim                           *flipper-ls.nvim-flipper-ls.nvim*
@@ -20,13 +20,13 @@ completion, hover, and go-to-definition by reading feature names and
 descriptions from a YAML config file.
 
 
-REQUIREMENTS                    *flipper-ls.nvim-flipper-ls.nvim-requirements*
+П�� REQUIREMENTS          *flipper-ls.nvim-flipper-ls.nvim-📋-requirements*
 
 - Neovim 0.11+
 - A `config/feature-descriptions.yml` file in your project root
 
 
-INSTALLATION                    *flipper-ls.nvim-flipper-ls.nvim-installation*
+П��ϸ� INSTALLATION    *flipper-ls.nvim-flipper-ls.nvim-���-️-installation*
 
 Using lazy.nvim <https://github.com/folke/lazy.nvim>:
 
@@ -41,7 +41,7 @@ Using lazy.nvim <https://github.com/folke/lazy.nvim>:
 <
 
 
-FEATURES                            *flipper-ls.nvim-flipper-ls.nvim-features*
+П�� FEATURES                  *flipper-ls.nvim-flipper-ls.nvim-💻-features*
 
 
 COMPLETION ~
@@ -73,7 +73,7 @@ GO-TO-DEFINITION ~
 Jump to the feature’s line in the YAML config file.
 
 
-HOW IT WORKS                    *flipper-ls.nvim-flipper-ls.nvim-how-it-works*
+П�� HOW IT WORKS          *flipper-ls.nvim-flipper-ls.nvim-🔍-how-it-works*
 
 The plugin reads feature names from `config/feature-descriptions.yml` (relative
 to your project root). This file should contain lines in the format:
@@ -90,7 +90,7 @@ The server only activates when it finds `config/feature-descriptions.yml` under
 a project root (detected via `Gemfile`, `package.json`, or `.git`).
 
 
-CONFIGURATION                  *flipper-ls.nvim-flipper-ls.nvim-configuration*
+П�� CONFIGURATION        *flipper-ls.nvim-flipper-ls.nvim-🔧-configuration*
 
 The defaults work for most projects. For custom paths or prefixes, use
 `vim.lsp.config`:
@@ -123,7 +123,7 @@ The defaults work for most projects. For custom paths or prefixes, use
                                                             that trigger completion
   ---------------------------------------------------------------------------------
 
-DEVELOPMENT                      *flipper-ls.nvim-flipper-ls.nvim-development*
+П�� DEVELOPMENT            *flipper-ls.nvim-flipper-ls.nvim-🔨-development*
 
 Run tests and lint:
 
