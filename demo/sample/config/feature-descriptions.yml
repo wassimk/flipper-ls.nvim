@@ -1,0 +1,10 @@
+ROLLOUT_enable_notification_digest: Daily or weekly email digest instead of individual notifications
+ROLLOUT_enable_mobile_push_notifications: Push notifications for the iOS and Android apps
+ROLLOUT_enable_webhook_integrations: Third-party webhook support for Slack, Discord, and Teams
+ROLLOUT_enable_in_app_announcements: Banner announcements for new features
+ROLLOUT_enable_advanced_analytics: Enhanced dashboard with usage trends and team insights
+ROLLOUT_enable_usage_based_pricing: Bill teams by usage instead of seats
+ROLLOUT_enable_audit_log: Track admin actions for compliance
+ROLLOUT_enable_sandbox_mode: Isolated sandbox environment for testing
+ROLLOUT_enable_sso_login: Single sign-on with SAML providers
+ROLLOUT_enable_bulk_import: Import projects from CSV files
